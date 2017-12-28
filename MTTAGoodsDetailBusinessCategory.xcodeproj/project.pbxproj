@@ -14,6 +14,9 @@
 		8D32B5371FF4CCE5009D97A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D32B5351FF4CCE5009D97A8 /* LaunchScreen.storyboard */; };
 		8D32B53A1FF4CCE5009D97A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D32B5391FF4CCE5009D97A8 /* main.m */; };
 		8D32B5441FF4CCE5009D97A8 /* MTTAGoodsDetailBusinessCategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D32B5431FF4CCE5009D97A8 /* MTTAGoodsDetailBusinessCategoryUITests.m */; };
+		8D32B5511FF4CD1F009D97A8 /* MTMediator+TAGoodsDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D32B5501FF4CD1F009D97A8 /* MTMediator+TAGoodsDetail.m */; };
+		9DEFA6F38EB30789123130FA /* libPods-MTTAGoodsDetailBusinessCategoryUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30ACD5485963D16E1180645C /* libPods-MTTAGoodsDetailBusinessCategoryUITests.a */; };
+		B146562C6669A3AC9F46DE36 /* libPods-MTTAGoodsDetailBusinessCategory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3558A427D8375C2AA342E9 /* libPods-MTTAGoodsDetailBusinessCategory.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		296727458B48E0B08B7C0A5A /* Pods-MTTAGoodsDetailBusinessCategory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTTAGoodsDetailBusinessCategory.release.xcconfig"; path = "Pods/Target Support Files/Pods-MTTAGoodsDetailBusinessCategory/Pods-MTTAGoodsDetailBusinessCategory.release.xcconfig"; sourceTree = "<group>"; };
+		30ACD5485963D16E1180645C /* libPods-MTTAGoodsDetailBusinessCategoryUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MTTAGoodsDetailBusinessCategoryUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		517B67DFC6263560889EB718 /* Pods-MTTAGoodsDetailBusinessCategoryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTTAGoodsDetailBusinessCategoryUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MTTAGoodsDetailBusinessCategoryUITests/Pods-MTTAGoodsDetailBusinessCategoryUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8D32B5271FF4CCE5009D97A8 /* MTTAGoodsDetailBusinessCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTTAGoodsDetailBusinessCategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D32B52A1FF4CCE5009D97A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8D32B52B1FF4CCE5009D97A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -40,6 +46,11 @@
 		8D32B53F1FF4CCE5009D97A8 /* MTTAGoodsDetailBusinessCategoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTTAGoodsDetailBusinessCategoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D32B5431FF4CCE5009D97A8 /* MTTAGoodsDetailBusinessCategoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTTAGoodsDetailBusinessCategoryUITests.m; sourceTree = "<group>"; };
 		8D32B5451FF4CCE5009D97A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D32B54F1FF4CD1E009D97A8 /* MTMediator+TAGoodsDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MTMediator+TAGoodsDetail.h"; sourceTree = "<group>"; };
+		8D32B5501FF4CD1F009D97A8 /* MTMediator+TAGoodsDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MTMediator+TAGoodsDetail.m"; sourceTree = "<group>"; };
+		9F09DB61E7E08A2AE4492DFD /* Pods-MTTAGoodsDetailBusinessCategoryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTTAGoodsDetailBusinessCategoryUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MTTAGoodsDetailBusinessCategoryUITests/Pods-MTTAGoodsDetailBusinessCategoryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE37551E2BBCE7FBE9A1E55C /* Pods-MTTAGoodsDetailBusinessCategory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTTAGoodsDetailBusinessCategory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MTTAGoodsDetailBusinessCategory/Pods-MTTAGoodsDetailBusinessCategory.debug.xcconfig"; sourceTree = "<group>"; };
+		CD3558A427D8375C2AA342E9 /* libPods-MTTAGoodsDetailBusinessCategory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MTTAGoodsDetailBusinessCategory.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B146562C6669A3AC9F46DE36 /* libPods-MTTAGoodsDetailBusinessCategory.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DEFA6F38EB30789123130FA /* libPods-MTTAGoodsDetailBusinessCategoryUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +79,8 @@
 				8D32B5291FF4CCE5009D97A8 /* MTTAGoodsDetailBusinessCategory */,
 				8D32B5421FF4CCE5009D97A8 /* MTTAGoodsDetailBusinessCategoryUITests */,
 				8D32B5281FF4CCE5009D97A8 /* Products */,
+				EA366C2880FA9D08ACDB8998 /* Pods */,
+				DF5FF28C0B77B8BB05C17D8D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +96,7 @@
 		8D32B5291FF4CCE5009D97A8 /* MTTAGoodsDetailBusinessCategory */ = {
 			isa = PBXGroup;
 			children = (
+				8D32B54E1FF4CD0D009D97A8 /* MTTAGoodsDetailBusinessCategory */,
 				8D32B52A1FF4CCE5009D97A8 /* AppDelegate.h */,
 				8D32B52B1FF4CCE5009D97A8 /* AppDelegate.m */,
 				8D32B52D1FF4CCE5009D97A8 /* ViewController.h */,
@@ -103,6 +119,35 @@
 			path = MTTAGoodsDetailBusinessCategoryUITests;
 			sourceTree = "<group>";
 		};
+		8D32B54E1FF4CD0D009D97A8 /* MTTAGoodsDetailBusinessCategory */ = {
+			isa = PBXGroup;
+			children = (
+				8D32B54F1FF4CD1E009D97A8 /* MTMediator+TAGoodsDetail.h */,
+				8D32B5501FF4CD1F009D97A8 /* MTMediator+TAGoodsDetail.m */,
+			);
+			path = MTTAGoodsDetailBusinessCategory;
+			sourceTree = "<group>";
+		};
+		DF5FF28C0B77B8BB05C17D8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD3558A427D8375C2AA342E9 /* libPods-MTTAGoodsDetailBusinessCategory.a */,
+				30ACD5485963D16E1180645C /* libPods-MTTAGoodsDetailBusinessCategoryUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA366C2880FA9D08ACDB8998 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE37551E2BBCE7FBE9A1E55C /* Pods-MTTAGoodsDetailBusinessCategory.debug.xcconfig */,
+				296727458B48E0B08B7C0A5A /* Pods-MTTAGoodsDetailBusinessCategory.release.xcconfig */,
+				9F09DB61E7E08A2AE4492DFD /* Pods-MTTAGoodsDetailBusinessCategoryUITests.debug.xcconfig */,
+				517B67DFC6263560889EB718 /* Pods-MTTAGoodsDetailBusinessCategoryUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -110,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D32B5481FF4CCE5009D97A8 /* Build configuration list for PBXNativeTarget "MTTAGoodsDetailBusinessCategory" */;
 			buildPhases = (
+				DB4751CE9C8CBAC8D64F03A6 /* [CP] Check Pods Manifest.lock */,
 				8D32B5231FF4CCE5009D97A8 /* Sources */,
 				8D32B5241FF4CCE5009D97A8 /* Frameworks */,
 				8D32B5251FF4CCE5009D97A8 /* Resources */,
+				ECAFD490A4ACDEDEEA01521E /* [CP] Embed Pods Frameworks */,
+				0BE39819B94D59135B79579F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D32B54B1FF4CCE5009D97A8 /* Build configuration list for PBXNativeTarget "MTTAGoodsDetailBusinessCategoryUITests" */;
 			buildPhases = (
+				FE7E1891524BB63F8D384370 /* [CP] Check Pods Manifest.lock */,
 				8D32B53B1FF4CCE5009D97A8 /* Sources */,
 				8D32B53C1FF4CCE5009D97A8 /* Frameworks */,
 				8D32B53D1FF4CCE5009D97A8 /* Resources */,
+				A4170C3734C0EF87EF161E27 /* [CP] Embed Pods Frameworks */,
+				5D1BFB5C42A60582AE475D72 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,11 +251,111 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0BE39819B94D59135B79579F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MTTAGoodsDetailBusinessCategory/Pods-MTTAGoodsDetailBusinessCategory-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D1BFB5C42A60582AE475D72 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MTTAGoodsDetailBusinessCategoryUITests/Pods-MTTAGoodsDetailBusinessCategoryUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4170C3734C0EF87EF161E27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MTTAGoodsDetailBusinessCategoryUITests/Pods-MTTAGoodsDetailBusinessCategoryUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB4751CE9C8CBAC8D64F03A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MTTAGoodsDetailBusinessCategory-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECAFD490A4ACDEDEEA01521E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MTTAGoodsDetailBusinessCategory/Pods-MTTAGoodsDetailBusinessCategory-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE7E1891524BB63F8D384370 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MTTAGoodsDetailBusinessCategoryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8D32B5231FF4CCE5009D97A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D32B5511FF4CD1F009D97A8 /* MTMediator+TAGoodsDetail.m in Sources */,
 				8D32B52F1FF4CCE5009D97A8 /* ViewController.m in Sources */,
 				8D32B53A1FF4CCE5009D97A8 /* main.m in Sources */,
 				8D32B52C1FF4CCE5009D97A8 /* AppDelegate.m in Sources */,
@@ -355,10 +506,13 @@
 		};
 		8D32B5491FF4CCE5009D97A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE37551E2BBCE7FBE9A1E55C /* Pods-MTTAGoodsDetailBusinessCategory.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QC98KGCJN9;
 				INFOPLIST_FILE = MTTAGoodsDetailBusinessCategory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Long.MTTAGoodsDetailBusinessCategory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -368,10 +522,13 @@
 		};
 		8D32B54A1FF4CCE5009D97A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 296727458B48E0B08B7C0A5A /* Pods-MTTAGoodsDetailBusinessCategory.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QC98KGCJN9;
 				INFOPLIST_FILE = MTTAGoodsDetailBusinessCategory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Long.MTTAGoodsDetailBusinessCategory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -381,6 +538,7 @@
 		};
 		8D32B54C1FF4CCE5009D97A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F09DB61E7E08A2AE4492DFD /* Pods-MTTAGoodsDetailBusinessCategoryUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MTTAGoodsDetailBusinessCategoryUITests/Info.plist;
@@ -394,6 +552,7 @@
 		};
 		8D32B54D1FF4CCE5009D97A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 517B67DFC6263560889EB718 /* Pods-MTTAGoodsDetailBusinessCategoryUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MTTAGoodsDetailBusinessCategoryUITests/Info.plist;
